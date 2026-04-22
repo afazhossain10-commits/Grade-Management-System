@@ -19,5 +19,9 @@ Java program to manage student marks and generate performance reports.
 - docs/ → documentation
 - examples/ → sample data
 
+- ## 📸 Output Screenshot
+
+![Output](docs/screenshot.png)
+
 ##  Author
 Sk Afaz Hossain
