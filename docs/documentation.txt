@@ -1,20 +1,119 @@
-Grade Management System
+GRADE MANAGEMENT SYSTEM - DOCUMENTATION
 
-Features:
-- Add student marks
-- Calculate average, highest, lowest
-- Assign grade (A-F)
-- Search student
-- Generate reports
+----------------------------------------
+1. PROJECT OVERVIEW
+----------------------------------------
+This project is a Java-based Grade Management System designed to store student marks,
+calculate performance metrics, and generate reports.
 
-How to Run:
-1. Compile all files
-2. Run GradeManagementSystem.java
-3. Use menu options
+Objectives:
+- Manage student academic data
+- Calculate average, highest, and lowest marks
+- Assign grades (A, B, C, D, F)
+- Provide performance analysis
 
-Grading System:
-A: 90+
-B: 75-89
-C: 60-74
-D: 50-59
-F: Below 50
+----------------------------------------
+2. SETUP INSTRUCTIONS
+----------------------------------------
+Step 1: Install Java (JDK)
+Step 2: Place all files inside src folder
+Step 3: Open terminal/command prompt
+Step 4: Compile:
+        javac *.java
+Step 5: Run:
+        java GradeManagementSystem
+
+----------------------------------------
+3. USER MANUAL
+----------------------------------------
+1. Run the program
+2. Choose option from menu:
+   - Add Student
+   - View All Students
+   - Search Student
+3. Enter marks (0–100 only)
+4. System will generate report automatically
+5. Exit when done
+
+----------------------------------------
+4. GRADING SYSTEM
+----------------------------------------
+Marks Range → Grade
+90 and above → A
+75 – 89 → B
+60 – 74 → C
+50 – 59 → D
+Below 50 → F
+
+----------------------------------------
+5. CODE STRUCTURE
+----------------------------------------
+src/
+- GradeManagementSystem.java → Main program (menu system)
+- StudentGrade.java → Data class
+- GradeCalculator.java → Calculation logic
+- ReportGenerator.java → Report printing
+
+docs/
+- documentation.txt → Project documentation
+
+examples/
+- sample.txt → Sample test data
+
+----------------------------------------
+6. TECHNICAL DETAILS
+----------------------------------------
+- Data Structure Used:
+  Array (for marks)
+  ArrayList (for storing students)
+
+- Algorithms:
+  Average = sum / number of subjects
+  Highest = max value in array
+  Lowest = min value in array
+
+- Architecture:
+  Modular design with separate classes for:
+  data, logic, and reporting
+
+----------------------------------------
+7. INPUT VALIDATION
+----------------------------------------
+- Marks must be between 0 and 100
+- Invalid input is rejected and re-entered
+
+----------------------------------------
+8. TESTING EVIDENCE
+----------------------------------------
+Test Case 1:
+Input: 80, 70, 90
+Output:
+Average: 80
+Grade: B
+
+Test Case 2:
+Input: 95, 92, 96
+Output:
+Average: 94
+Grade: A
+
+Test Case 3:
+Input: 40, 45, 50
+Output:
+Average: 45
+Grade: F
+
+----------------------------------------
+9. VISUAL DOCUMENTATION
+----------------------------------------
+(Steps to include screenshot)
+1. Run the program
+2. Take screenshot of:
+   - Menu
+   - Adding student
+   - Report output
+3. Upload screenshot in GitHub (optional but recommended)
+
+----------------------------------------
+END OF DOCUMENT
+----------------------------------------
