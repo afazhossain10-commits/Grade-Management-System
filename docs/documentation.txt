@@ -1,0 +1,20 @@
+Grade Management System
+
+Features:
+- Add student marks
+- Calculate average, highest, lowest
+- Assign grade (A-F)
+- Search student
+- Generate reports
+
+How to Run:
+1. Compile all files
+2. Run GradeManagementSystem.java
+3. Use menu options
+
+Grading System:
+A: 90+
+B: 75-89
+C: 60-74
+D: 50-59
+F: Below 50
